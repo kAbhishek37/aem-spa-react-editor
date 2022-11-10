@@ -1,0 +1,32 @@
+
+
+.teaser-container{
+    position: relative;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+}
+
+.action-link{
+    position: absolute;
+    color: black;
+    height: fit-content;
+    width: fit-content;
+    padding: 8px;
+    max-width: 50%;
+    font-size: 20px;
+    /* background-color: red; */
+    background: transparent;
+    background-color: rgba(255, 149, 0);
+    text-decoration: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    border-radius:5px;
+    text-align: center;
+   
+    
+}

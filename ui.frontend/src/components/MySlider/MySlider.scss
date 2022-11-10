@@ -1,0 +1,26 @@
+.slider-ui-container {
+  background: #f0fff8;
+  padding: 20px;
+}
+
+.slider-container {
+  width: 100%;
+  padding: 0 5px;
+  margin: 0 5px;
+}
+
+.slider-img {
+  // object-fit: cover;
+  background: red;
+  max-height: 250px;
+  min-height: 250px;
+  height: 250px;
+}
+
+.slider-item-title {
+  font-size: small;
+  line-height: normal;
+  margin-top: 10px;
+  color: black;
+  text-decoration: none;
+}
