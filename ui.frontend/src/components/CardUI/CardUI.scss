@@ -1,0 +1,52 @@
+.card-ui-container {
+  width: 100%;
+  background: #f0d6db;
+  padding: 2%;
+  margin-bottom: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.container-headline {
+  font-size: 21px;
+  font-weight: bolder;
+}
+
+.card-container {
+  width: 48%;
+  padding: 2%;
+  margin-right: 5px;
+  margin-top: 15px;
+  float: left;
+  background: white;
+}
+
+.container-link {
+  display: inline-block;
+  text-decoration: none;
+  // width: 100%;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.cardui-card-link-text {
+  text-decoration: none;
+  color: black;
+  height: 25px;
+  font-size: small;
+  line-height: 15px;
+  margin-top: 5px;
+  width: 90%;
+}
+
+.cardui-link-text {
+  text-decoration: none;
+  height: 15px;
+}
+
+.cardui-link-text:hover {
+  color: orange;
+  text-decoration: underline;
+}

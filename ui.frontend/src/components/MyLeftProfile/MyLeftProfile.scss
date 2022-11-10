@@ -1,0 +1,83 @@
+.myprofile-container {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: auto;
+  overflow: hidden;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.profile-image-left {
+  float: left;
+  width: 49%;
+  padding: 20px;
+}
+
+.profile-image-right {
+  float: right;
+  width: 49%;
+  padding: 20px;
+}
+
+.profile-text-right {
+  float: right;
+  width: 49%;
+  padding: 20px;
+  text-align: center !important;
+  align-items: center !important;
+}
+
+.profile-text-left {
+  float: left;
+  width: 49%;
+  padding: 20px;
+  text-align: center !important;
+  align-items: center !important;
+}
+.profile-title {
+  font-size: 1.5rem;
+  font-size: calculateRem(1.5rem);
+  color: #2b2b2d;
+  margin: 0;
+  font-family: "Bitter", sans-serif;
+  font-weight: 700;
+  padding: 0 7% 7% 0;
+  text-align: left !important;
+}
+
+.profile-text {
+  font-size: 0.875rem;
+  font-family: "Montserrat", sans-serif;
+  //   font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: -0.5px;
+  padding: 10px 0 0;
+  height: auto;
+  overflow: hidden;
+  text-align: left !important;
+}
+
+.profile-btn {
+  height: 30px;
+  color: white;
+  background: black;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid beige;
+  padding: 5px;
+  margin: 20px 0 5px 0;
+  bottom: 0;
+  text-decoration: none;
+}
+.profile-btn:hover {
+  color: white;
+  cursor: pointer;
+}
